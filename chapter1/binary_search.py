@@ -6,6 +6,16 @@
 
 
 def binary_search(list, item):
+    """
+    二分查找法
+    Args:
+        list: 需要查找的列表
+        item:需要查找的元素
+
+    Returns:
+        mid:元素索引
+        None:查找不到返回空
+    """
     low = 0
     high = len(list) - 1
 
